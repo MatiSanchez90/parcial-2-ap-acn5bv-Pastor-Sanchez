@@ -1,0 +1,117 @@
+TeachHub
+
+Objetivo: Lanzar y escalar la plataforma TeachHub para conectar estudiantes con tutores y profesores particulares de manera eficiente.
+
+1.Lanzamiento de la Plataforma
+Completar el desarrollo de la plataforma TeachHub y lanzarla públicamente en un plazo de 6 meses.
+Implementar al menos 10 funcionalidades clave (registro de usuarios, búsqueda de tutores, sistema de reservas, pago en línea, sistema de calificaciones, etc.).
+Lograr al menos 500 registros de usuarios (estudiantes y tutores) en los primeros 3 meses posteriores al lanzamiento.
+2.Asegurar la Calidad y Satisfacción del Usuario
+Obtener una puntuación de satisfacción del usuario de al menos 4.5 sobre 5 en encuestas de usuarios en el primer trimestre después del lanzamiento.
+Mantener una tasa de retención de usuarios del 80% o más durante los primeros 6 meses.
+3.Expandir la Oferta de Clases y Materias
+Ofrecer clases en al menos 20 diferentes materias y habilidades en el primer año.
+Reclutar al menos 100 tutores y profesores cualificados en diversas áreas de enseñanza en los primeros 6 meses.
+Introducir y promover clases grupales con al menos 50 sesiones exitosas en el primer trimestre.
+stakeholders
+
+Matias Sanchez - Product Owner y Desarrollador
+
+Intereses: Definir y priorizar los requerimientos del producto, asegurar que el desarrollo cumpla con las expectativas del usuario y desarrollar funcionalidades del producto. 
+Influencia: Alta.
+Comunicación: Reuniones semanales de seguimiento y revisiones de sprint.
+
+Joaquien Pastor- Desarrollador
+
+Intereses: Desarrollar funcionalidades del producto, asegurar la calidad del código y el cumplimiento de los plazos.
+Influencia: Alta. 
+Comunicación: Reuniones diarias de stand-up, colaboración en el repositorio de código.
+
+
+Carlos Rodríguez - Usuario Final
+
+Intereses: Usar la aplicación para mejorar la gestión de sus tareas diarias. 
+Poder: Bajo 
+Influencia: Media
+Comunicación: Encuestas de satisfacción y sesiones de prueba de usuario.
+
+
+
+
+
+Metodología Ágil
+
+Scrum es ideal para proyectos que tienen un alto grado de incertidumbre y requieren mucha colaboración y feedback constante. Algunas características de Scrum que beneficiarán a TeachHub son:
+Sprints: Iteraciones de trabajo de 2 a 4 semanas que permiten revisar y ajustar el progreso de manera constante.
+Roles Definidos:
+Product Owner: Se encargará de definir y priorizar los requerimientos del producto, asegurando que se cumplan las expectativas de los usuarios.
+Equipo de Desarrollo: Compuesto por desarrolladores que trabajan juntos para completar las tareas del sprint.
+Eventos Scrum:
+Sprint Planning: Reunión al inicio de cada sprint para planificar el trabajo a realizar.
+Daily Stand-up: Reuniones diarias de 15 minutos para sincronizar el equipo y discutir el progreso.
+Sprint Review: Revisión del trabajo realizado al final de cada sprint con el Product Owner y otros interesados.
+Sprint Retrospective: Evaluación del equipo sobre el sprint terminado para identificar mejoras.
+
+
+
+Kanban complementa Scrum al proporcionar una visualización continua del flujo de trabajo y permitir una mayor flexibilidad en la gestión de tareas. Las características clave de Kanban incluyen:
+Tablero Kanban: Visualiza todo el flujo de trabajo desde "Pendiente" hasta "Completado". Esto ayuda al equipo a ver el progreso y a identificar cuellos de botella.
+Límites de WIP (Work In Progress): Limita la cantidad de trabajo en proceso para evitar la sobrecarga y asegurar que las tareas se completen antes de comenzar nuevas.
+Entrega Continua: Permite lanzar características tan pronto como estén listas, en lugar de esperar hasta el final de un sprint.
+Implementación Combinada de Scrum y Kanban
+Estructura del Sprint:
+Usar Sprints de 2 semanas para mantener una estructura y revisar el progreso regularmente.
+Implementar un tablero Kanban para visualizar el trabajo dentro de cada sprint.
+Roles y Responsabilidades:
+Definir roles de Product Owner y Equipo de Desarrollo.
+Asignar un responsable del tablero Kanban para asegurarse de que se mantenga actualizado.
+Eventos y Reuniones:
+Realizar Sprint Planning, Daily Stand-ups, Sprint Reviews, y Sprint Retrospectives.
+Utilizar el tablero Kanban en las reuniones diarias para discutir el progreso y mover tareas.
+Visualización y Gestión del Trabajo:
+Crear un tablero Kanban con columnas para "Todo", "In Progress" y "Done".
+
+
+	Logo de la aplicación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Historias de usuarios
+
+HU1:Registro de Usuarios: Como estudiante, quiero registrarme en TeachHub usando mi correo electrónico y contraseña para acceder a las clases disponibles.
+Criterios de Aceptación:
+El usuario debe poder registrarse con un correo electrónico y contraseña.
+El sistema debe enviar un correo de confirmación para validar el registro.
+
+HU2: Búsqueda de Tutores: Como estudiante, quiero buscar tutores por materia y calificación para encontrar al mejor tutor para mis necesidades.
+Criterios de Aceptación:
+El usuario debe poder buscar tutores por nombre, materia y calificación.
+Los resultados de la búsqueda deben mostrar el perfil del tutor con sus calificaciones y reseñas.
+
+
+3.HU3: Sistema de Reservas:Como estudiante, quiero reservar una clase con un tutor en un horario conveniente para mí.
+Criterios de Aceptación:
+El usuario debe poder ver los horarios disponibles de los tutores.
+El usuario debe poder seleccionar un horario y reservar una clase.
+4.HU4:Pago en línea: Como estudiante, quiero pagar por las clases en línea usando mi tarjeta de crédito o PayPal para confirmar mi reserva.
+Criterios de Aceptación:
+El usuario debe poder introducir los detalles de su tarjeta de crédito o PayPal.
+El sistema debe procesar el pago y confirmar la reserva.
+
+5.HU5:Sistema de Calificaciones y Reseñas: Como estudiante, quiero calificar y dejar una reseña de mi tutor después de una clase para ayudar a otros estudiantes a tomar decisiones informadas.
+Criterios de Aceptación:
+El usuario debe poder calificar a su tutor en una escala de 1 a 5 estrellas.
+El usuario debe poder escribir y publicar una reseña.
