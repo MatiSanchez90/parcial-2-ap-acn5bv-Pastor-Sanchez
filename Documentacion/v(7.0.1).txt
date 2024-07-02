@@ -102,57 +102,77 @@ El usuario debe poder buscar tutores por nombre, materia y calificación.
 Los resultados de la búsqueda deben mostrar el perfil del tutor con sus calificaciones y reseñas.
 
 
-3.HU3: Sistema de Reservas:Como estudiante, quiero reservar una clase con un tutor en un horario conveniente para mí.
+HU3: Sistema de Reservas:Como estudiante, quiero reservar una clase con un tutor en un horario conveniente para mí.
 Criterios de Aceptación:
 El usuario debe poder ver los horarios disponibles de los tutores.
 El usuario debe poder seleccionar un horario y reservar una clase.
-4.HU4:Pago en línea: Como estudiante, quiero pagar por las clases en línea usando mi tarjeta de crédito o PayPal para confirmar mi reserva.
+
+
+HU4:Pago en línea: Como estudiante, quiero pagar por las clases en línea usando mi tarjeta de crédito o PayPal para confirmar mi reserva.
 Criterios de Aceptación:
 El usuario debe poder introducir los detalles de su tarjeta de crédito o PayPal.
 El sistema debe procesar el pago y confirmar la reserva.
 
-5.HU5:Sistema de Calificaciones y Reseñas: Como estudiante, quiero calificar y dejar una reseña de mi tutor después de una clase para ayudar a otros estudiantes a tomar decisiones informadas.
+HU5:Sistema de Calificaciones y Reseñas: Como estudiante, quiero calificar y dejar una reseña de mi tutor después de una clase para ayudar a otros estudiantes a tomar decisiones informadas.
 Criterios de Aceptación:
 El usuario debe poder calificar a su tutor en una escala de 1 a 5 estrellas.
 El usuario debe poder escribir y publicar una reseña.
-6.HU6:Perfil del Tutor: Como tutor, quiero crear y gestionar mi perfil con información sobre mi experiencia y habilidades para atraer a estudiantes.
+
+
+HU6:Perfil del Tutor: Como tutor, quiero crear y gestionar mi perfil con información sobre mi experiencia y habilidades para atraer a estudiantes.
 Criterios de Aceptación:
 El tutor debe poder añadir y editar información sobre su experiencia, habilidades y materias que enseña.
 El perfil del tutor debe ser visible para los estudiantes.
 
 
-
-
-7.HU7:Notificaciones: Como estudiante, quiero recibir notificaciones por correo electrónico y dentro de la aplicación sobre mis reservas y recordatorios de clases.
+HU7:Notificaciones: Como estudiante, quiero recibir notificaciones por correo electrónico y dentro de la aplicación sobre mis reservas y recordatorios de clases.
 Criterios de Aceptación:
 El sistema debe enviar notificaciones por correo electrónico sobre reservas y recordatorios de clases.
 El usuario debe recibir notificaciones dentro de la aplicación.
-8.HU8:Clases Individuales y Grupales Como estudiante, quiero elegir entre clases individuales o grupales para ajustarse mejor a mis necesidades de aprendizaje.
+
+HU8:Clases Individuales y Grupales Como estudiante, quiero elegir entre clases individuales o grupales para ajustarse mejor a mis necesidades de aprendizaje.
 Criterios de Aceptación:
 El usuario debe poder seleccionar entre clases individuales o grupales al hacer una reserva.
 El sistema debe mostrar la disponibilidad y el precio de ambas opciones.
-9.HU9:Gestión de Suscripciones: Como usuario, quiero suscribirme a un plan mensual para tener acceso ilimitado a clases y ahorrar dinero.
+
+
+HU9:Gestión de Suscripciones: Como usuario, quiero suscribirme a un plan mensual para tener acceso ilimitado a clases y ahorrar dinero.
 Criterios de Aceptación:
 El usuario debe poder ver y seleccionar diferentes planes de suscripción.
 El sistema debe gestionar los pagos recurrentes y el acceso a las clases.
 
 
-
-10.HU10:Historial de Clases Como estudiante, quiero ver un historial de todas las clases que he tomado para llevar un registro de mi progreso.
+HU10:Historial de Clases Como estudiante, quiero ver un historial de todas las clases que he tomado para llevar un registro de mi progreso.
 Criterios de Aceptación:
 El usuario debe poder ver una lista de todas las clases completadas.
 Cada entrada en el historial debe incluir detalles como la fecha, el tutor y la calificación recibida.
 
-Milestone
+HU11: Soporte al Usuario: Como usuario, quiero acceder a un sistema de soporte para resolver cualquier problema o duda que tenga sobre el uso de la plataforma.
+Criterios de Aceptación:
+El usuario debe poder acceder a una sección de preguntas frecuentes (FAQ).
+El usuario debe poder enviar solicitudes de soporte a través de un formulario de contacto.
 
+
+HU12: Integración de Videochat: Como estudiante, quiero tener la opción de realizar clases en línea a través de videochat para aprender de manera remota.
+Criterios de Aceptación:
+El usuario debe poder iniciar una sesión de videochat desde la plataforma.
+El sistema debe ser compatible con herramientas de videochat populares como Zoom o Google Meet.
+
+
+HU13: Análisis de Progreso: Como estudiante, quiero ver un análisis de mi progreso y desempeño en las clases para saber en qué áreas necesito mejorar.
+Criterios de Aceptación:
+El usuario debe poder ver un resumen de sus clases completadas, calificaciones recibidas y progreso en cada materia.
+El sistema debe proporcionar recomendaciones personalizadas para mejorar el desempeño del usuario.
+
+
+
+Milestones
 
 Milestone 1: Registro y Autenticación de Usuarios 
 HU1: Como usuario, quiero registrarme en la aplicación para acceder a mis tareas.
 HU2: Como usuario, quiero iniciar sesión en la aplicación para acceder a mis tareas.
- HU3: Como usuario, quiero restablecer mi contraseña en caso de olvidarla.
- HU4: Como administrador, quiero gestionar los usuarios registrados en el sistema.
-
-
+HU3: Como usuario, quiero restablecer mi contraseña en caso de olvidarla.
+HU4: Como administrador, quiero gestionar los usuarios registrados en el sistema.
 
 
 Milestone 2: Gestión de Tareas 
@@ -160,3 +180,10 @@ HU5: Como usuario, quiero añadir tareas para gestionar mis actividades.
 HU6: Como usuario, quiero editar mis tareas para actualizar la información.
 HU7: Como usuario, quiero eliminar mis tareas cuando ya no sean necesarias.
 HU8: Como usuario, quiero ver una lista de todas mis tareas para gestionar mis actividades.
+
+
+Milestone 3: Sistema de Pagos y Soporte
+HU9: Como estudiante, quiero pagar por las clases en línea usando mi tarjeta de crédito o PayPal para confirmar mi reserva.
+HU10: Como usuario, quiero suscribirme a un plan mensual para tener acceso ilimitado a clases y ahorrar dinero.
+HU11: Como usuario, quiero acceder a un sistema de soporte para resolver cualquier problema o duda que tenga sobre el uso de la plataforma.
+
